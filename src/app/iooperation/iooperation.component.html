@@ -1,0 +1,29 @@
+<form #form1='ngForm' (ngSubmit)='createPost1(form1)' class="overall">
+    <div class="mr-3 form-group">
+        <label for="Name" class="form-label">Name</label>
+        <input id="Name" type="text" ngModel name="Name" class="form-control" placeholder="Shalini">
+    </div>
+    <div class="mr-3 form-group">
+        <label for="id" class="form-label">Id</label>
+        <input id="id" type="number" ngModel name="ID" class="form-control" placeholder="12345">
+    </div>
+    <div class="mr-3 form-group">
+        <label for="skills" class="form-label">skills</label>
+        <input id="skills" type="text" ngModel name="Skills" class="form-control" placeholder="12345">
+    </div>
+    <div class="mr-3 form-group">
+        <label for="proj" class="form-label">Project</label>
+        <input id="proj" type="text" ngModel name="Project" class="form-control" placeholder="new">
+    </div>
+    <div class="mr-3 form-group">
+        <label for="HCM" class="form-label">HCM</label>
+        <input id="HCM" type="text" ngModel name="HCM" class="form-control" placeholder="Alex">
+    </div>
+    <div class="mr-3 form-group">
+        <label for="gender" class="form-label">Gender</label>
+        <input id="gender" type="text" ngModel name="gender" class="form-control" placeholder="Female">
+    </div>
+    <div class="form-group">
+        <button type='submit'class="btn btn-info btn-lg mt-3" >Add</button>
+    </div>
+</form>
